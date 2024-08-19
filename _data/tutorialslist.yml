@@ -1,4 +1,12 @@
-- title: Building Programming Language Infrastructure With LLVM Components
+- title: Efficient Python Programming
+  author: "Aaron Jomy (CERN); Vassil Vassilev (Princeton/CERN)"
+  abstract: |
+    Placeholder
+
+  url: /tutorials/efficient-python-programming/
+  date: 2024-08-20
+  
+  - title: Building Programming Language Infrastructure With LLVM Components
   author: "Sunho Kim (De Anza College, Cupertino); Lang Hames (Apple); Vassil Vassilev (Princeton/CERN)"
   abstract: |
     LLVM and Clang are one of the foundational instruments for building research
