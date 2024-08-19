@@ -1,0 +1,16 @@
+
+<div class="well">
+<h4><b>Software Releases</b></h4>
+<div style="height: 300px">
+
+
+  {% assign top_articles = site.data.releases | slice: 0, 5 %}
+  {% for article in top_articles %}
+  <p><a href="{{article.link}}">{{article.codebase}} - {{article.version}}</a><br />{% include date.html date=article.date %}</p>
+  {% endfor %}
+    
+
+
+</div>
+<h4><a href="{{ site.url }}{{ site.baseurl }}/releases">... see details</a></h4>
+</div>

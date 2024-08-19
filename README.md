@@ -133,8 +133,12 @@ docker run --rm -v "$PWD:/srv/jekyll" \
            jekyll serve --livereload
 ```
 
+## Guide to Making Changes to the Website
+
+Before making any changes to the Compiler Research website, please view the [Contibution Guide] to understand the existing site structure.
+
 
 [installation]: https://jekyllrb.com/docs/installation/windows/
 [RubyInstaller Downloads]: https://rubyinstaller.org/downloads/
-
+[Contibution Guide]: https://github.com/compiler-research/compiler-research.github.io/blob/master/CONTRIBUTING.md
 
