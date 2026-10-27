@@ -4,12 +4,32 @@
   connect: "[Link to zoom](https://princeton.zoom.us/j/97915651167?pwd=MXJ1T2lhc3Z5QWlYbUFnMTZYQlNRdz09)"
   label: crcon26_part_1
   agenda:
-    - title: "Not available yet"
+    - title: "CppJIT: Automatic Python–C++ Interoperability, from Research to Production"
       speaker:
         name: "Aaron Jomy"
       time_cest: "15:00 - 15:20"
       description: |
-        Not available yet
+        CppJIT is an automatic Python–C++ interoperability layer and bindings
+        generator, built on Clang and LLVM. This talk presents my work over the
+        last three years on CppJIT, CppInterOp, ROOT, and LLVM: Numba support,
+        AST-based reflection, CPython extension modernization, wrapper code
+        generation (JitCall), runtime library dispatch, and recently,
+        enhancements to clang-repl's CUDA support. On the ROOT side, I was
+        responsible for migrating the legacy type system and Python
+        interoperability layer to CppInterOp and CppJIT, a major undertaking
+        that was delivered in the latest release.
+
+        With the goal of developing the next generation of Python–C++
+        interoperability based on cppyy, CppJIT went from research to
+        production — into ROOT at CERN, where it now supports LHC experiment
+        code, as well as other sciences and communities as a general-purpose
+        Python library.
+
+        I'll walk through my ongoing work on the upcoming CppJIT GPU support for
+        HPC and scientific applications: complete kernel expression support,
+        zero-copy interoperability with foreign device arrays, CUDA streams, and
+        graphs from CuPy and cuda.core, demonstrated in a GPU-accelerated
+        topological data analysis of the cosmic web.
 
     - title: "Memory Ownership Design for Dynamic Python-C++ Interoperability"
       speaker:
